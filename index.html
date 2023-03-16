@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="asset/fontawesome-free-6.3.0-web/css/all.css">
+        <!---SHANTELL SANS FONT--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+        <!---MY NERVE FONT--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form class="card">
+                <div class="container">
+                    <div class="card1">
+                        <div class="identity">
+                            <label for="last name">&starf; Last Name:</label> <br>
+                            <input type="text" name="lastname"   required> <br><br>
+                            <label for="first name">&starf; First Name:</label> <br>
+                            <input type="text" name="firstname" required> <br><br>
+                            <label for="Other names">&starf; Other Names:</label> <br>
+                            <input type="text" name="othername" required> <br><br>
+                            <label for="Nickname">&starf; Nickname:</label> <br>
+                            <input type="text" name="nickname"   required> <br><br>
+                            <label for="email">&starf; Email:</label> <br>
+                            <input type="email" name="email"  required> <br><br>
+                            <label for="birthday" >&starf; Birthday:</label>
+                            <input type="date" name="birthday" class="date"> <br><br>
+                        </div>
+                        <div class="option" name="gender">&starf;
+                            <select>
+                                <option  class="yours">Select your Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Transgender">Transgender</option>
+                                <option value="Rather not say">Rather not say</option>
+                            </select> <br><br>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="Q-A">
+                            <div class="question one">
+                                <p>&starf; If life is unfair to everybody, isn't life fair?</p>
+                                <div class="answer">
+                                    <input type="radio" name="answer" value="yes" id="specify">
+                                    <label for="yes">yes</label><br>
+                                    <input type="radio" name="answer" value="no" id="specify">
+                                    <label for="no">no</label><br>
+                                    <input type="radio" name="answer" value="i don't know" id="specify">
+                                    <label for="i don't know">i don't know</label><br>
+                                    <input type="radio" name="answer" value="don't ask me" id="specify">
+                                    <label for="don't ask me">don't ask me</label>
+                                </div>
+                            </div><br>
+                            <div class="question two">
+                                <p>&starf; What is your favourite color? <input type="text"></p> 
+                            </div><br>
+                            <div class="question three">
+                                <p>&starf; Favorite snack?</p>
+                                <div class="answer">
+                                    <input type="checkbox" name="answer" value="chocolates" id="color">
+                                    <label for="chocolates">chocolates</label><br>
+                                    <input type="checkbox" name="answer" value="cookies" id="color">
+                                    <label for="cookies">cookies</label><br>
+                                    <input type="checkbox" name="answer" value="pastries" id="color">
+                                    <label for="pastries">pastries</label><br>
+                                    <input type="checkbox" name="answer" value="ice cream" id="color">
+                                    <label for="ice cream">ice cream</label><br>
+                                    <input type="checkbox" name="answer" value="popcorn" id="color">
+                                    <label for="popcorn">popcorn</label><br>
+                                </div>
+                            </div><br>
+                            <div class="question four">
+                                <p>&starf; Describe your personality in one word? <input type="text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="her-btn">Submit</button>
+                </div>
+                <div class="card3">
+                    <i class="fa-regular fa-circle-dot" style="color: white;"></i>
+                    <div class="nav-btn">
+                        <i class="fa-solid fa-circle" style="color: white;"></i>
+                    <i class="fa-solid fa-square" style="color: white;"></i>
+                    <i class="fa-solid fa-caret-right" style="color: white;"></i>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
